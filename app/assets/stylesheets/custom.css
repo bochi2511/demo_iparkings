@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+
+/* ----------------------------
+	Generic 
+   ---------------------------- */
+	.fixed { position:fixed; z-index:100; width:100%; }
+	.fixed.top { top:0; }
+	.fixed.bottom { bottom:0; }
+
+	#doc { padding-top:110px; padding-bottom:84px; }
+	#doc.simple { padding-top:0; padding-bottom:0; display:table; margin:0 auto; height:666px; }
+
+	#doc #main { position:relative; }
+	#doc.simple #main { display: table-cell; vertical-align: middle; }
+
+/* ----------------------------
+   SIMPLE SECTIONS
+   ---------------------------- */
+
+   /* Login
+   ---------------------------- */   
+	#login { 
+   		width:280px; background:#fff; margin:0 auto; padding:44px 50px;
+   		box-shadow: 0 1px 2px 0px rgba(0,0,0,0.3); -webkit-box-shadow: 0 1px 2px 0px rgba(0,0,0,0.3); -moz-box-shadow: 0 1px 2px 0px rgba(0,0,0,0.3);
+   	}
+   	#login header { position:relative; width:100%; height:55px; margin-bottom:35px; }
+   	#login header h1 { width:250px; height:55px; background: url("/assets/logo-bg.png") no-repeat; margin:0 auto; text-indent:-99999px; }
+
+	#login .row { 
+               margin-top:15px; 
+               min-width: 200px;
+            }
+
+	#login .row:first-child { margin-top:0; }
+   	#login .bd p { font-size:108%; color:#1A1A1A; line-height:1.3; }
+   	#login label { font-size:100%; color:#666; }
+   	#login .input-text { font-size:123.1%; color:#4D4D4D; }
+   
+   	#login footer .button { margin-top:22px; }
+   	#login footer label { font-size:93%; color:#999; line-height:1.2 \0/IE9;; margin-bottom:15px; }
+   	#login footer .custom.checkbox { top:-6px; }
+
