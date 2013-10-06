@@ -25,7 +25,7 @@
    		box-shadow: 0 1px 2px 0px rgba(0,0,0,0.3); -webkit-box-shadow: 0 1px 2px 0px rgba(0,0,0,0.3); -moz-box-shadow: 0 1px 2px 0px rgba(0,0,0,0.3);
    	}
    	#login header { position:relative; width:100%; height:55px; margin-bottom:35px; }
-   	#login header h1 { width:250px; height:55px; background: url('logo-bg.png') no-repeat; margin:0 auto; text-indent:-99999px; }
+   	#login header h1 { width:250px; height:55px; background: url('/assets/logo-bg.png') no-repeat; margin:0 auto; text-indent:-99999px; }
 
 	#login .row { 
                margin-top:15px; 
